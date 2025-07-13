@@ -9,10 +9,10 @@ public class StockService {
         @Tool(description = "Get the stock price of a company")
         public String getStockPrice(String companyName) {
                 if (companyName.equalsIgnoreCase("democompany")) {
-                        return "Price = 1TL";
+                        return "Price = 1 Turkish Liras";
                 }
 
-                if (companyName.equalsIgnoreCase("testcompan")) {
+                if (companyName.equalsIgnoreCase("testcompany")) {
                         return "Price = 2TL";
                 }
                 return "not found";
