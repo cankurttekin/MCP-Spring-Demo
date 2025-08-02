@@ -13,11 +13,9 @@ public class StockService {
                 }
 
                 if (companyName.equalsIgnoreCase("testcompany")) {
-                        return "Price = 2TL";
+                        return "Price = 2 Turkish Liras";
                 }
                 return "not found";
         }
 }
-
-                
 
